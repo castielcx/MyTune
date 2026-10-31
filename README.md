@@ -2,6 +2,14 @@
 
 MyTune is a Windows tuning app for gaming. It turns on proven Windows, network and graphics settings that lower input lag and keep frame rates steady, and every change can be undone.
 
+## What's new in 2.3.6
+
+- **Clear RAM** button on the Dashboard, plus a Game booster option that clears RAM when a game starts.
+- **Resolution and refresh rate** pickers for each monitor on the Display page, with a 15-second "Keep this mode?" safety prompt.
+- **Activate G-SYNC** card: right means G-SYNC on, left switches it off for competitive play.
+- The update window now shows the release notes and any tweaks that were removed.
+- Removed the Disable Game Mode tweak and the Defender exclusion toggle in Game Hub.
+
 ## Install
 
 1. Download `MyTune-Setup-<version>.exe` from the [latest release](https://github.com/castielcx/MyTune/releases/latest).
@@ -16,7 +24,6 @@ Requires 64-bit Windows 10 or 11.
 ## First start
 
 - The welcome window offers a set of recommended tweaks (Optimization and Debloat). Nothing marked Risky or Security risk is included.
-- Leave **Measure before and after** ticked. MyTune takes a 3-second reading before applying anything, and after your next restart it offers to take a second one and show what changed. Close games and heavy apps first so the numbers are fair.
 - A Windows restore point is created before the first change.
 
 ## Tips
