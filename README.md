@@ -2,13 +2,12 @@
 
 MyTune is a Windows tuning app for gaming. It turns on proven Windows, network and graphics settings that lower input lag and keep frame rates steady, and every change can be undone.
 
-## What's new in 2.3.6
+## What's new in 2.3.7
 
-- **Clear RAM** button on the Dashboard, plus a Game booster option that clears RAM when a game starts.
-- **Resolution and refresh rate** pickers for each monitor on the Display page, with a 15-second "Keep this mode?" safety prompt.
-- **Activate G-SYNC** card: right means G-SYNC on, left switches it off for competitive play.
-- The update window now shows the release notes and any tweaks that were removed.
-- Removed the Disable Game Mode tweak and the Defender exclusion toggle in Game Hub.
+- **22 tweaks removed** that had no measurable benefit, for example the RAM and standby cleaners, Nagle, network throttling and per-game High priority. If you had any of them on, MyTune puts your original settings back the first time you open it.
+- **Much lighter in the background**: while MyTune is hidden it reads the sensors less often, and it no longer starts the VPN status programs every 20 seconds.
+- **Safer undo**: if Windows refuses to put a value back, MyTune keeps the backup so you can try again, and it keeps a second copy of its backup file.
+- The telemetry scheduled-tasks tweak now also works on non-English Windows.
 
 ## Install
 
@@ -30,7 +29,7 @@ Requires 64-bit Windows 10 or 11.
 
 - **Restart after applying.** Tweaks marked Restart only take effect after Windows restarts. A bar at the top of MyTune lists what is still waiting.
 - **Undo anything.** The Restore page reverts a tweak to the value it had before MyTune changed it. If MyTune has no saved original for a tweak, it changes nothing.
-- **Games.** Add your games on the Game Hub page to give each one its own priority, CPU core choice and graphics settings.
+- **Games.** Add your games on the Game Hub page to give each one its own CPU core choice, NVIDIA profile, GPU choice and network priority.
 - **Start with Windows.** This is off by default. You can turn it on in Settings, and MyTune then starts hidden in the tray without a permission prompt.
 - **Risky tweaks.** Read the description before turning on anything labelled Risky, Experimental or Security risk.
 - **After a big Windows update.** When Windows moves to a new build, MyTune switches off its risky tweaks and keeps them off until you install a newer MyTune version.
