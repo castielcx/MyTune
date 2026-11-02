@@ -2,6 +2,10 @@
 
 MyTune is a Windows tuning app for gaming. It turns on proven Windows, network and graphics settings that lower input lag and keep frame rates steady, and every change can be undone.
 
+## What's new in 2.3.8
+
+- **GPU overclock while gaming** (Settings > Game booster): core and memory offsets plus power limit for NVIDIA cards. Applied only while a Game Hub game runs, back to stock when it closes.
+
 ## What's new in 2.3.7
 
 - **22 tweaks removed** that had no measurable benefit, for example the RAM and standby cleaners, Nagle, network throttling and per-game High priority. If you had any of them on, MyTune puts your original settings back the first time you open it.
