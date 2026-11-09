@@ -2,12 +2,9 @@
 
 MyTune is a Windows tuning app for gaming. It turns on proven Windows, network and graphics settings that lower input lag and keep frame rates steady, and every change can be undone.
 
-## What's new in 2.4.2
+## What's new in 2.4.3
 
-- **New blocky look**: square corners everywhere, with a colour-block pattern behind the sidebar and title bar. The whole theme follows the accent colour you pick in Settings, and White is now one of the choices.
-- **Sidebar that gets out of the way**: inside a section it slides to an icon strip, and hovering the strip opens it again.
-- **Cleaner tweak cards**: the long description now sits behind "What does this change?", and the On/Off text next to each switch is gone.
-- **Tidier layout**: titles, cards and buttons line up evenly on every page.
+- **Resizable BAR check**: the PC check on Home now tells you if this graphics-card setting is off on an RTX 30, 40 or 50 card, and where to turn it on in the BIOS.
 
 ## Install
 
